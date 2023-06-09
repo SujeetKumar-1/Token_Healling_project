@@ -60,6 +60,8 @@ The Modified text, after going through the text processing pipeline, is printed 
   ### Sample output 1 : 
   I am very thirsty. Can you please give me a glass of water? The white fox asked the rabbit. I don't have water, the rabbit replied.
   
+  ![Untitled](https://github.com/golwall/Token_Healling_project/assets/130788061/c8957aef-37b8-4087-b4d2-8ad3e85efaa0)
+
   ### Sample input 2 : 
   I will go to the office yesterday!
   ### Sample output 2 : 
