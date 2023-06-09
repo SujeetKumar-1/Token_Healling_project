@@ -1,7 +1,7 @@
 # Token_Healling_project
 Token healing is a technique used to correct errors in text by identifying and replacing incorrect or mistyped tokens(word) with their intended correct forms.
 
-This is a python program. which is used to correct errors in text by identifying and replacing misspelled or mistyped tokens with their intended correct forms.
+This is a python program. which is used to correct errors in text by identifying and replacing misspelled or mistyped tokens with their intended correct forms. 
 
 This Python script aims to enhance the readability and coherence of text. The algorithm of token healing technique consists of three main steps:
 1. Spelling and grammer correction
