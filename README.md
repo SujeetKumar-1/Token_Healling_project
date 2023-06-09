@@ -36,7 +36,7 @@ To use the token healing script, follow these steps:
   2. spacy: A popular library used for natural language processing (NLP) task.
   3. re: The regular expression module for pattern matching and string manipulation.
   4. GingerIt from gingerit library: A parser for spelling and grammar correction.
-  BertTokenizer and BertForMaskedLM from the transformsers library. components for utilizing BERT(Bidirectional Encoder representations from Transformers) model for masked language modeling.
+  BertTokenizer and BertForMaskedLM from the transformers library. components for utilizing BERT(Bidirectional Encoder representations from Transformers) model for masked language modeling.
 
 # Initialization
   1. parser: An instance of GingerIt is created, which will be used for spelling and grammar correction.
