@@ -43,4 +43,20 @@ To use the token healing script, follow these steps:
   BERT Model Setup: model_name: Specifies the name of the pre-trained BERT model to be used (bet-base-uncased).tokenizer: Initializes a BERT tokenizer from the specifies pre-trained mo del. model: Loads a pre-trained BERT model for masked language modeling and sets it to evaluation mode.
   Spacy Model Setup: THe Englidh language model(en_core_web_sm) is loaded into the nlp object.
   
-# Function Definiations
+# Function Definitions
+  correct_spelling_and_grammer: This function takes a text as input and uses the parser object to parse and correct the spelling and grammar of the text. The corrected result is returned.
+  add_missing_words: This function takes a text as input and process itwiththe help of BERT. it identifies missing words(tokens) in the input text byreplacing them with the "[ MISSING ]" placeholder. The BERT model predicts the missing word, which is then substitute back in the text. The function returns the text with missing words added.
+  remove_dupli_words: This function takes a text as input and utilizes a regular expression pattern to identify duplicate or extra words, including those with punctuation. It removes the duplicates and returns the deduplicated text.
+
+# User Input
+The code prompts the user to enter the text.
+
+# Output 
+The Modified text, after going through the text processing pipeline, is printed as "Corrected text".
+
+# Sample Output
+Sample input 1 : I I I am veY thirsty thirsty.can you plese give guve [MISSING] a glass of [MISSING]? the [MISSING] fox ased the rabbit. I dont have water, the [MISSING] replied.
+Sample output 1 : I am very thirsty. Can you please give me a glass of water? The white fox asked the rabbit. I don't have water, the rabbit replied.
+
+Sample input 2 : I will go to the office yesterday!
+Sample output 2 : I went to the office yesterday!
