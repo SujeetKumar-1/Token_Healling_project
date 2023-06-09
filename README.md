@@ -55,7 +55,7 @@ The code prompts the user to enter the text.
 The Modified text, after going through the text processing pipeline, is printed as "Corrected text".
 
 # Sample Output
-Sample input 1 : I I I am veY thirsty thirsty.can you plese give guve [MISSING] a glass of [MISSING]? the [MISSING] fox ased the rabbit. I dont have water, the [MISSING] replied.
+Sample input 1 : I I I aam veY thirsty thirsty.can you plese give guve [MISSING] a glass of [MISSING]? the [MISSING] fox ased the rabbit. I dont have water, the [MISSING] replied.
 Sample output 1 : I am very thirsty. Can you please give me a glass of water? The white fox asked the rabbit. I don't have water, the rabbit replied.
 
 Sample input 2 : I will go to the office yesterday!
